@@ -11,7 +11,10 @@ func main() {
 	var number2 int
 	fmt.Scan(&number2)
 
-	fmt.Println("the sum is", number1 + number2)
-
+	fmt.Println("the sum is", sum(number1, number2))
+	
 }
 
+func sum(num1 int, num2 int) int {
+	return num1 + num2
+}
